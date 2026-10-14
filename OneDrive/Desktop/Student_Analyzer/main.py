@@ -45,7 +45,7 @@ def run_edge_case_tests():
 
     # Test 3: Duplicate and differently capitalized skills.
     duplicate_student = StudentProfile(
-        "Gamana", [" Python ", "python", "SQL", "sql"]
+        "Pradeep", [" Python ", "python", "SQL", "sql"]
     )
 
     duplicate_job = JobDescription(
@@ -67,7 +67,7 @@ def run_edge_case_tests():
 def main():
     # Create the student profile.
     student = StudentProfile(
-        "Gamana",
+        "Pradeep",
         ["Python", " SQL "]
     )
 
